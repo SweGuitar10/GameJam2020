@@ -5,12 +5,11 @@ using UnityEngine;
 public class DeathScript : MonoBehaviour
 {
 
-    private void OnCollisionEnter(Collision collision)
+    
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("break");
-            Destroy(collision.gameObject);
-        }
+        Debug.Log("This is collision");
+        Debug.Log(hit.gameObject.tag);
     }
+    
 }
