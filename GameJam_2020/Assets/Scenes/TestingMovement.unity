@@ -669,7 +669,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1909485964}
   cam: {fileID: 1258797298}
-  speed: 20
+  forwardSpeed: 25
+  horizontalSpeed: 10
 --- !u!65 &1909485960
 BoxCollider:
   m_ObjectHideFlags: 0
