@@ -8,14 +8,14 @@ public class SpawnFloor : MonoBehaviour
     public GameObject spawn;
     private void Awake()
     {
-        GameObject previousPlane = Instantiate(plane);
-        previousPlane.transform.position = spawn.transform.position;
-        spawnPlane(plane);
+        //GameObject previousPlane = Instantiate(plane);
+        //previousPlane.transform.position = spawn.transform.position;
+        //spawnPlane(plane);
     }
 
     private void Update()
     {
-        InvokeRepeating("spawnPlane", 3f, 1f);
+       // InvokeRepeating("spawnPlane", 3f, 1f);
     }
 
 
