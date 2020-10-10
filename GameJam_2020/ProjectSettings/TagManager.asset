@@ -9,6 +9,7 @@ TagManager:
   - Triangle
   - Wall
   - Floor
+  - FloorDestroy
   layers:
   - Default
   - TransparentFX

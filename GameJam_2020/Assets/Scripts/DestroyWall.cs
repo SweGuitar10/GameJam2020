@@ -10,5 +10,9 @@ public class DestroyWall : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.CompareTag("FloorDestroy"))
+        {
+            FloorDestroyer.destroyFloor();
+        }
     }
 }

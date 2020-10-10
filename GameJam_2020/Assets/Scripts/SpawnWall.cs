@@ -8,14 +8,7 @@ public class SpawnWall : MonoBehaviour
     public GameObject fakeWall;
     public List<GameObject> shapeWalls;
 
-    void Start()
-    {
-        InvokeRepeating("spawnShapeWall", 1f, 4f);
-        InvokeRepeating("spawnFakeWall", 2f, 4f);
-    }
-
-
-    void spawnFakeWall()
+    public void spawnFakeWall()
     {
         int shapePos = (int)Random.Range(0f, 3f);
 
@@ -44,7 +37,7 @@ public class SpawnWall : MonoBehaviour
         }
     }
 
-    void spawnShapeWall()
+    public void spawnShapeWall()
     {
         int shapeIndex = (int)Random.Range(0f, 3f);
         int shapePos = (int)Random.Range(0f, 3f);
@@ -57,8 +50,6 @@ public class SpawnWall : MonoBehaviour
         Vector3 wall1 = new Vector3(-5f, 3f, z);
         Vector3 wall2 = new Vector3(0f, 3f, z);
         Vector3 wall3 = new Vector3(5f, 3f, z);
-
-        
 
         switch(shapePos)
         {

@@ -6,7 +6,6 @@ using UnityEngine;
 public class CheckCollision : MonoBehaviour
 {
     ShapeChanger shapeCh;
-    DestroyWall destroyWall;
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
@@ -32,8 +31,6 @@ public class CheckCollision : MonoBehaviour
                 break;
         }
 
-        Debug.Log(hit.gameObject.tag);
-
         if (hit.gameObject.CompareTag(tag))
         {
             Destroy(hit.gameObject);
@@ -41,13 +38,13 @@ public class CheckCollision : MonoBehaviour
         }
 
         //TODO only break if player.tag doesn't match shape
-        else if (!hit.gameObject.CompareTag(tag))
+        else if (!hit.gameObject.CompareTag(tag) || hit.gameObject.Equals("Wall"))
         {
+            gameObject.transform.GetChild(1).gameObject.SetActive(false);
 
         }
         else
         {
-            gameObject.transform.GetChild(1).gameObject.SetActive(false);
         }
 
     }

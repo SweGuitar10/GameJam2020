@@ -10,6 +10,11 @@ public class BPMScript : MonoBehaviour
     public static bool beatFull, beat8;
     public static int beatCountFull, beatCount8;
 
+    private int shapeWallSpawn = 0;
+
+    SpawnWall spawnWall;
+    public GameObject player;
+
     private void Awake()
     {
         if(bpmScriptInstance != null && bpmScriptInstance != this)
@@ -21,6 +26,9 @@ public class BPMScript : MonoBehaviour
             bpmScriptInstance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+
+        spawnWall = player.GetComponent<SpawnWall>();
+
     }
 
 
@@ -31,6 +39,7 @@ public class BPMScript : MonoBehaviour
 
     void beatDetection()
     {
+        
         beatFull = false;
         beatInterval = 60 / bpm;
         beatTimer += Time.deltaTime;
@@ -39,7 +48,21 @@ public class BPMScript : MonoBehaviour
             beatTimer -= beatInterval;
             beatFull = true;
             beatCountFull++;
-            Debug.Log(4);
+            if (shapeWallSpawn == 1)
+            {
+                spawnWall.spawnShapeWall();
+                shapeWallSpawn = 0;
+
+            }
+            else
+            {
+                
+                if(Random.Range(0, 6) == 0 && shapeWallSpawn == (0 | 2))
+                {
+                    spawnWall.spawnFakeWall();
+                }
+                shapeWallSpawn++;
+            }
         }
 
         beat8 = false;
@@ -50,8 +73,9 @@ public class BPMScript : MonoBehaviour
             beatTimer8 -= beatInterval8;
             beat8 = true;
             beatCount8++;
-            Debug.Log(8);
         }
 
     }
+
+    
 }
