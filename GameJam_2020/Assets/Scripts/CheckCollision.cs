@@ -35,6 +35,7 @@ public class CheckCollision : MonoBehaviour
         if(hit.gameObject.CompareTag(tag))
         {
             Destroy(hit.gameObject);
+            Points.points++;
         }
         else
         {

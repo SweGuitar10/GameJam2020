@@ -14,26 +14,12 @@ public class SpawnWall : MonoBehaviour
         InvokeRepeating("spawnWall", 1f, 2f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    /*void spawnWall()
-    {
-        Vector3 pos = gameObject.transform.position;
-        GameObject newWall = Instantiate(wall);
-        newWall.transform.position = new Vector3(0f, 3f, pos.z + 50f);
-    }*/
+ 
 
     void spawnWall()
     {
         int shapeIndex = (int)Random.Range(0f, 3f);
         int shapePos = (int)Random.Range(0f, 3f);
-
-        Debug.Log("Shape Index: " + shapeIndex);
-        Debug.Log("Shape Pos: " + shapePos);
 
         GameObject wallShape = Instantiate(shapeWalls[shapeIndex]);
         GameObject wallFake1 = Instantiate(fakeWall);
