@@ -20,7 +20,7 @@ public class CheckCollision : MonoBehaviour
                 tag = "Cube";
                 break;
             case 1:
-                tag = "Spere";
+                tag = "Sphere";
                 break;
             case 2:
                 tag = "Triangle";
