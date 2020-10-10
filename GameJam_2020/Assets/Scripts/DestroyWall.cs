@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class DestroyWall : MonoBehaviour
 {
+    FloorSpawner flSpawn;
+    public GameObject flr;
+    private void Start()
+    {
+        flSpawn = flr.GetComponent<FloorSpawner>();
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Wall"))
@@ -12,7 +18,7 @@ public class DestroyWall : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("FloorDestroy"))
         {
-            FloorDestroyer.destroyFloor();
+            flSpawn.spawnFloor();
         }
     }
 }

@@ -14,11 +14,4 @@ public class FloorDestroyer : MonoBehaviour
 
     }
 
-    public void spawnFloor()
-    {
-        Vector3 pos = floor.transform.position;
-        GameObject floor2 = Instantiate(newFloor);
-        floor2.transform.position = new Vector3(pos.x, pos.y, pos.z + 70f);
-
-    }
 }
