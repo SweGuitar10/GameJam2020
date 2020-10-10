@@ -54,4 +54,9 @@ public class ShapeChanger : MonoBehaviour
                 break;
         }
     }
+
+    public int getShape()
+    {
+        return shape;
+    }
 }
