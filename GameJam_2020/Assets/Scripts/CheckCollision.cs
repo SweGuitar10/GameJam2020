@@ -1,13 +1,16 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CheckCollision : MonoBehaviour
 {
     ShapeChanger shapeCh;
+    DestroyWall destroyWall;
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
+
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
@@ -28,7 +31,8 @@ public class CheckCollision : MonoBehaviour
                 tag = "Error";
                 break;
         }
-        if(tag.Equals(hit.gameObject.tag))
+
+        if(hit.gameObject.CompareTag(tag))
         {
             Destroy(hit.gameObject);
         }
@@ -36,5 +40,8 @@ public class CheckCollision : MonoBehaviour
         {
             gameObject.transform.GetChild(1).gameObject.SetActive(false);
         }
+
     }
+    
+
 }
