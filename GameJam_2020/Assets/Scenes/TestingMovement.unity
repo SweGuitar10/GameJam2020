@@ -387,6 +387,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 51432258, guid: 109a7baadf850c747acfd177f7cd6ec6, type: 3}
+      propertyPath: shapeWalls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 51432258, guid: 109a7baadf850c747acfd177f7cd6ec6, type: 3}
+      propertyPath: shapeWalls.Array.data[0]
+      value: 
+      objectReference: {fileID: 2966829499058558266, guid: 9afb237e7d54ea94ea2246d38669de46,
+        type: 3}
+    - target: {fileID: 51432258, guid: 109a7baadf850c747acfd177f7cd6ec6, type: 3}
+      propertyPath: shapeWalls.Array.data[1]
+      value: 
+      objectReference: {fileID: 7777804836426905597, guid: 0746fb15fcec4e042a1bafacba077fec,
+        type: 3}
+    - target: {fileID: 51432258, guid: 109a7baadf850c747acfd177f7cd6ec6, type: 3}
+      propertyPath: shapeWalls.Array.data[2]
+      value: 
+      objectReference: {fileID: 6908717518919187166, guid: af0982d1414935a4395b2869687db09d,
+        type: 3}
+    - target: {fileID: 51432258, guid: 109a7baadf850c747acfd177f7cd6ec6, type: 3}
+      propertyPath: fakeWall
+      value: 
+      objectReference: {fileID: 6908717518919187166, guid: 810d047abe1c618438c4e45ea3e9e240,
+        type: 3}
     - target: {fileID: 7303773158168150732, guid: 109a7baadf850c747acfd177f7cd6ec6,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -5,6 +5,9 @@ using UnityEngine;
 public class SpawnWall : MonoBehaviour
 {
     public GameObject wall;
+    public GameObject fakeWall;
+    public List<GameObject> shapeWalls;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +20,16 @@ public class SpawnWall : MonoBehaviour
         
     }
 
-    void spawnWall()
+    /*void spawnWall()
     {
         Vector3 pos = gameObject.transform.position;
         GameObject newWall = Instantiate(wall);
         newWall.transform.position = new Vector3(0f, 3f, pos.z + 50f);
+    }*/
+
+    void spawnWall()
+    {
+        Random rnd = new Random();
+        int shape = (int) Random.value * 3;
     }
 }
