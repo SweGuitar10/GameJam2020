@@ -32,10 +32,18 @@ public class CheckCollision : MonoBehaviour
                 break;
         }
 
-        if(hit.gameObject.CompareTag(tag))
+        Debug.Log(hit.gameObject.tag);
+
+        if (hit.gameObject.CompareTag(tag))
         {
             Destroy(hit.gameObject);
             Points.points++;
+        }
+
+        //TODO only break if player.tag doesn't match shape
+        else if (!hit.gameObject.CompareTag(tag))
+        {
+
         }
         else
         {
