@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Points : MonoBehaviour
 {
-    [SerializeField]
     public static int points;
 
     public Text pointText;
@@ -16,7 +15,7 @@ public class Points : MonoBehaviour
 
     private void Update()
     {
-        pointText.text = "Will to live:"+ points;
+        pointText.text = "Points: "+ points;
     }
 
     
