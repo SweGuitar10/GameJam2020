@@ -175,6 +175,7 @@ MonoBehaviour:
   cam: {fileID: 1258797298}
   forwardSpeed: 25
   horizontalSpeed: 10
+  stepSize: 5
 --- !u!143 &51432256
 CharacterController:
   m_ObjectHideFlags: 0
@@ -422,7 +423,7 @@ Transform:
   m_GameObject: {fileID: 392077803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.14908016, y: 2.198533, z: 130.1615}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.73, y: 0.73, z: 1}
   m_Children:
   - {fileID: 580720235}
   - {fileID: 1517905751}
@@ -779,7 +780,7 @@ Transform:
   m_GameObject: {fileID: 1061424126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 61.75}
-  m_LocalScale: {x: 2, y: 1, z: 14}
+  m_LocalScale: {x: 1.5, y: 1, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1

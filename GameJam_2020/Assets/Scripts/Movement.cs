@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 
@@ -11,22 +12,53 @@ public class Movement : MonoBehaviour
 
     public float forwardSpeed = 25f;
     public float horizontalSpeed = 10f;
-    
-
-    // Update is called once per frame
+    public float stepSize = 5f;
+    int xPos = 0;
+    bool pressed;
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+        Vector3 direction = new Vector3(horizontal, 0f, 0f).normalized;
+        
+        controller.Move(Vector3.forward * forwardSpeed * Time.deltaTime); // Autoscroll
 
-        controller.Move(Vector3.forward * forwardSpeed * Time.deltaTime);
 
-        if(direction.magnitude >= 0.1f)
+        Vector3 pos = gameObject.transform.position;
+        if (horizontal < 0 || horizontal > 0)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            controller.Move(direction * horizontalSpeed * Time.deltaTime);
+            if (!pressed)
+            {
+                changePosition(direction);
+            }
+            pressed = true;
+        }
+        else
+        {
+            pressed = false;
+        }
+        pos = new Vector3(xPos * stepSize, pos.y, pos.z);
+        gameObject.transform.position = pos;
 
+    }
+
+    void changePosition(Vector3 direction)
+    {
+        if (direction.x > 0)
+        {
+            xPos++;
+        }
+        else
+        {
+            xPos--;
+        }
+
+        if (xPos > 1)
+        {
+            xPos = 1;
+        }
+        else if (xPos < -1)
+        {
+            xPos = -1;
         }
     }
 }

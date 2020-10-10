@@ -12,7 +12,6 @@ public class CheckCollision : MonoBehaviour
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         int shape = shapeCh.getShape();
-        Debug.Log(shape);
         string tag;
         switch (shape)
         {
