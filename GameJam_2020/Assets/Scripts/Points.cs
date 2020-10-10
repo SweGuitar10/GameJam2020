@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Points : MonoBehaviour
 {
-    public static int points;
+    public int points;
 
     public Text pointText;
     private void Awake()

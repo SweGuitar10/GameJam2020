@@ -7,8 +7,8 @@ public class BPMScript : MonoBehaviour
     private static BPMScript bpmScriptInstance;
     public float bpm = 120;
     private float beatInterval, beatTimer, beatInterval8, beatTimer8;
-    public static bool beatFull, beat8;
-    public static int beatCountFull, beatCount8;
+    public bool beatFull, beat8;
+    public int beatCountFull, beatCount8;
 
     private int shapeWallSpawn = 0;
 
@@ -24,13 +24,18 @@ public class BPMScript : MonoBehaviour
         else
         {
             bpmScriptInstance = this;
-            DontDestroyOnLoad(this.gameObject);
+            //DontDestroyOnLoad(this.gameObject);
         }
 
-        spawnWall = player.GetComponent<SpawnWall>();
+
+        
 
     }
-
+    private void Start()
+    {
+        player = GameObject.Find("Player");
+        spawnWall = player.GetComponent<SpawnWall>();
+    }
 
     private void Update()
     {

@@ -6,9 +6,14 @@ using UnityEngine;
 public class CheckCollision : MonoBehaviour
 {
     ShapeChanger shapeCh;
+    GameOver gameOver;
+    Points points;
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
+        gameOver = gameObject.GetComponent<GameOver>();
+        points = gameObject.GetComponent<Points>();
+
 
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -34,14 +39,14 @@ public class CheckCollision : MonoBehaviour
         if (hit.gameObject.CompareTag(tag))
         {
             Destroy(hit.gameObject);
-            Points.points++;
+            points.points++;
         }
 
         //TODO only break if player.tag doesn't match shape
         else if (!hit.gameObject.CompareTag(tag) || hit.gameObject.Equals("Wall"))
         {
-            gameObject.transform.GetChild(1).gameObject.SetActive(false);
-
+            gameOver.gameOver();
+            
         }
         else
         {
