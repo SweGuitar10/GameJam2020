@@ -31,12 +31,10 @@ public class CheckCollision : MonoBehaviour
         }
         if(tag.Equals(hit.gameObject.tag))
         {
-            Debug.Log("Wooo");
             Destroy(hit.gameObject);
         }
         else
         {
-            Debug.Log("noo");
             gameObject.transform.GetChild(1).gameObject.SetActive(false);
         }
     }
