@@ -22,7 +22,7 @@ public class CheckCollision : MonoBehaviour
         points = gameObject.GetComponent<Points>();
         sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
 
-        sound.playMusic();
+        //sound.playMusic();
 
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)

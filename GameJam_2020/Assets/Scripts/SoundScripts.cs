@@ -10,6 +10,7 @@ public class SoundScripts : MonoBehaviour
     FMOD.Studio.EventInstance mainLevelMusic;
     FMOD.Studio.EventInstance announcer;
     FMOD.Studio.EventInstance highscore;
+    FMOD.Studio.EventInstance death;
 
     public void setWallPitch(int a)
     {
@@ -50,6 +51,11 @@ public class SoundScripts : MonoBehaviour
     public void playPickup()
     {
         pickup.start();
+    }
+
+    public void playDeat()
+    {
+        death.start();
     }
 
 
