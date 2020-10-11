@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerReturn" id="{72c6e1b4-38da-4701-9f2f-0d53a5e2fc68}">
+		<property name="name">
+			<value>VO Delay</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b1ad74d2-df22-4bb5-ad8f-11a284c0c3fc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d9e7c7cc-66e2-413f-9a24-669e04d7e013}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7ff13fb8-51b9-4aeb-ae10-aa130e0f961c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b1ad74d2-df22-4bb5-ad8f-11a284c0c3fc}">
+		<relationship name="effects">
+			<destination>{bebf06bb-8551-4689-a691-d0eab164ffc8}</destination>
+			<destination>{88018d35-0b57-4f60-8087-caebab168a90}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d9e7c7cc-66e2-413f-9a24-669e04d7e013}">
+		<relationship name="modulators">
+			<destination>{1e229025-d500-493c-b3d7-4fb38ad842ff}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{bebf06bb-8551-4689-a691-d0eab164ffc8}" />
+	<object class="DelayEffect" id="{88018d35-0b57-4f60-8087-caebab168a90}">
+		<property name="level">
+			<value>-3</value>
+		</property>
+	</object>
+	<object class="LFOModulator" id="{1e229025-d500-493c-b3d7-4fb38ad842ff}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>stereoPan</value>
+		</property>
+		<property name="rate">
+			<value>0.25999999</value>
+		</property>
+		<property name="depth">
+			<value>45</value>
+		</property>
+	</object>
+</objects>

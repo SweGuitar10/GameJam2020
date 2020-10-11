@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{520eca30-988c-4d6d-9b01-79834b6411dd}">
+		<property name="name">
+			<value>LVL</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c79499b1-d7a8-40d6-a067-c596d679f5d8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a29d525f-c777-493a-be2b-1cae9ccaceb1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a29d525f-c777-493a-be2b-1cae9ccaceb1}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.55000001192092896</value>
+		</property>
+	</object>
+</objects>

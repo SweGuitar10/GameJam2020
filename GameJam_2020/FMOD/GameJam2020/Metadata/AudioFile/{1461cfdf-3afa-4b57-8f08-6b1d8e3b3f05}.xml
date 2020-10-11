@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{1461cfdf-3afa-4b57-8f08-6b1d8e3b3f05}">
+		<property name="assetPath">
+			<value>Forthelulz.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>26.687301587301587</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c4736cf-da7e-4af5-b36d-618217c2572f}</destination>
+		</relationship>
+	</object>
+</objects>
