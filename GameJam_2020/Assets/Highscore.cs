@@ -25,11 +25,6 @@ public class Highscore : MonoBehaviour
     void Update()
     {
         setHighscore();
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            resetHighscore();
-        }
-        
     }
 
     public void setHighscore()

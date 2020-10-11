@@ -51,12 +51,6 @@ public class GameLogic : MonoBehaviour
             spawnWall.spawnDist -= changeRateWall;
             move.forwardSpeed += changeRateSpeed;
             change = false;
-            
-        }
-
-        if(Input.GetKeyDown(KeyCode.P))
-        {
-            points.points++;
         }
     }
 

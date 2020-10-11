@@ -19,7 +19,6 @@ public class MenuMovement : MonoBehaviour
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        //Vector3 direction = new Vector3(horizontal, 0, 00).normalized;
         Vector3 pos = gameObject.transform.position;
         if (horizontal < 0 || horizontal > 0)
         {
