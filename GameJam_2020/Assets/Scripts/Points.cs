@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class Points : MonoBehaviour
 {
-    public int points;
+    public float points;
 
     public Text pointText;
-    private void Awake()
+    private void Start()
     {
         points = 0;
     }
 
     private void Update()
     {
-        pointText.text = "Points: "+ points;
+        pointText.text = "Points: "+ (int)points;
     }
 
     

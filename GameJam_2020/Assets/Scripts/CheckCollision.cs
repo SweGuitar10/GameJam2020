@@ -42,17 +42,10 @@ public class CheckCollision : MonoBehaviour
             points.points++;
         }
 
-        //TODO only break if player.tag doesn't match shape
         else if (!hit.gameObject.CompareTag(tag) || hit.gameObject.Equals("Wall"))
         {
             gameOver.gameOver();
             
         }
-        else
-        {
-        }
-
     }
-    
-
 }

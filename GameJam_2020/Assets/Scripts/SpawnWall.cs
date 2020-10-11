@@ -7,6 +7,7 @@ public class SpawnWall : MonoBehaviour
     public GameObject wall;
     public GameObject fakeWall;
     public List<GameObject> shapeWalls;
+    public float spawnDist = 100f;
 
     public void spawnFakeWall()
     {
@@ -14,7 +15,7 @@ public class SpawnWall : MonoBehaviour
 
         GameObject wallFake1 = Instantiate(fakeWall);
         GameObject wallFake2 = Instantiate(fakeWall);
-        float z = gameObject.transform.position.z + 50f;
+        float z = gameObject.transform.position.z + spawnDist;
 
         Vector3 wall1 = new Vector3(-5f, 3f, z);
         Vector3 wall2 = new Vector3(0f, 3f, z);
@@ -46,7 +47,12 @@ public class SpawnWall : MonoBehaviour
         GameObject wallFake1 = Instantiate(fakeWall);
         GameObject wallFake2 = Instantiate(fakeWall);
 
-        float z = gameObject.transform.position.z + 50f;
+        wallShape.transform.SetParent(GameObject.Find("WallParent").transform);
+        wallFake1.transform.SetParent(GameObject.Find("WallParent").transform);
+        wallFake2.transform.SetParent(GameObject.Find("WallParent").transform);
+
+
+        float z = gameObject.transform.position.z + spawnDist;
         Vector3 wall1 = new Vector3(-5f, 3f, z);
         Vector3 wall2 = new Vector3(0f, 3f, z);
         Vector3 wall3 = new Vector3(5f, 3f, z);

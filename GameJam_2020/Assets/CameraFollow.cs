@@ -9,7 +9,10 @@ public class CameraFollow : MonoBehaviour
   
     void Update()
     {
-        followPlayer();
+        if(player != null)
+        {
+            followPlayer();
+        }
     }
 
     public void followPlayer()

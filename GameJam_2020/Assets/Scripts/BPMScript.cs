@@ -12,20 +12,13 @@ public class BPMScript : MonoBehaviour
 
     private int shapeWallSpawn = 0;
 
+    GameOver gameOver;
     SpawnWall spawnWall;
     public GameObject player;
 
     private void Awake()
     {
-        if(bpmScriptInstance != null && bpmScriptInstance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            bpmScriptInstance = this;
-            //DontDestroyOnLoad(this.gameObject);
-        }
+        
 
 
         
@@ -33,13 +26,25 @@ public class BPMScript : MonoBehaviour
     }
     private void Start()
     {
+        if (bpmScriptInstance != null && bpmScriptInstance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            bpmScriptInstance = this;
+        }
         player = GameObject.Find("Player");
+        gameOver = player.GetComponentInParent<GameOver>();
         spawnWall = player.GetComponent<SpawnWall>();
     }
 
     private void Update()
     {
-        beatDetection();
+        if (!gameOver.isGameOver)
+        {
+            beatDetection();
+        }
     }
 
     void beatDetection()
