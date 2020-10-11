@@ -33,7 +33,7 @@ public class GameLogic : MonoBehaviour
     {
         if (gameOver.isGameOver)
         {
-            Time.timeScale = 0f;
+            
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 Time.timeScale = 1f;

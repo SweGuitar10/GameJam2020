@@ -11,6 +11,7 @@ public class SoundScripts : MonoBehaviour
     FMOD.Studio.EventInstance announcer;
     FMOD.Studio.EventInstance highscore;
     FMOD.Studio.EventInstance death;
+    FMOD.Studio.EventInstance shift;
 
     public void setWallPitch(int a)
     {
@@ -30,6 +31,7 @@ public class SoundScripts : MonoBehaviour
     public void setWallPan(float a)
     {
         wallHit.setParameterByName("WallhitPan", a);
+        shift.setParameterByName("WallhitPan", a);
     }
 
     public void playHighscore()
@@ -63,6 +65,11 @@ public class SoundScripts : MonoBehaviour
         death.start();
     }
 
+    public void playShapeShift()
+    {
+        shift.start();
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -72,12 +79,8 @@ public class SoundScripts : MonoBehaviour
         mainLevelMusic= FMODUnity.RuntimeManager.CreateInstance("event:/MainLevelMusic");
         announcer = FMODUnity.RuntimeManager.CreateInstance("event:/Announcer");
         highscore = FMODUnity.RuntimeManager.CreateInstance("event:/Highscore");
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        death = FMODUnity.RuntimeManager.CreateInstance("event:/Death");
+        shift = FMODUnity.RuntimeManager.CreateInstance("event:/Shift");
+        playMusic();
     }
 }

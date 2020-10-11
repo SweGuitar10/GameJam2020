@@ -15,31 +15,39 @@ public class Movement : MonoBehaviour
     public float stepSize = 5f;
     int xPos = 0;
     bool pressed;
-
+    bool disable = false;
 
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         Vector3 direction = new Vector3(horizontal, spawn.transform.position.y, spawn.transform.position.z).normalized;
-        
-        controller.Move(Vector3.forward  * forwardSpeed * Time.deltaTime); // Autoscroll
 
+            controller.Move(Vector3.forward  * forwardSpeed * Time.deltaTime); // Autoscroll
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            toggleMovement();
+        }
 
         Vector3 pos = gameObject.transform.position;
-        if (horizontal < 0 || horizontal > 0)
+        if (!disable)
         {
-            if (!pressed)
+            if (horizontal < 0 || horizontal > 0)
             {
-                changePosition(direction);
+                if (!pressed)
+                {
+                    changePosition(direction);
+                }
+                pressed = true;
             }
-            pressed = true;
+            else
+            {
+                pressed = false;
+            }
+            pos = new Vector3(xPos * stepSize, pos.y, pos.z);
+            gameObject.transform.position = pos;
         }
-        else
-        {
-            pressed = false;
-        }
-        pos = new Vector3(xPos * stepSize, pos.y, pos.z);
-        gameObject.transform.position = pos;
+        
 
     }
 
@@ -62,5 +70,15 @@ public class Movement : MonoBehaviour
         {
             xPos = -1;
         }
+    }
+
+    public int getXPos()
+    {
+        return xPos;
+    }
+
+    public void toggleMovement()
+    {
+        disable = !disable;
     }
 }

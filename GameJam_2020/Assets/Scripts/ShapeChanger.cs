@@ -6,12 +6,17 @@ public class ShapeChanger : MonoBehaviour
 {
     public GameObject cube, sphere, triangle;
     int shape;
+    SoundScripts sound;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
+    }
     void Update()
     {
         if(Input.GetKey(KeyCode.J))
         {
+            sound.playShapeShift();
             shape = 0;
             changeShape(shape);
            
@@ -19,12 +24,14 @@ public class ShapeChanger : MonoBehaviour
 
         if (Input.GetKey(KeyCode.K))
         {
+            sound.playShapeShift();
             shape = 1;
             changeShape(shape);
         }
 
         if (Input.GetKey(KeyCode.L))
         {
+            sound.playShapeShift();
             shape = 2;
             changeShape(shape);
         }

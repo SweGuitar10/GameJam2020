@@ -13,18 +13,21 @@ public class CheckCollision : MonoBehaviour
     GameObject brWallSpawn;
     public GameObject brWall;
 
-    SoundScripts sound;
+    public GameObject death;
 
+    SoundScripts sound;
+    Movement move;
+
+    bool playDeath = true;
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
         gameOver = gameObject.GetComponent<GameOver>();
         points = gameObject.GetComponent<Points>();
         sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
-
-        //sound.playMusic();
-
+        move = GameObject.Find("Player").GetComponent<Movement>();
     }
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         int shape = shapeCh.getShape();
@@ -63,23 +66,29 @@ public class CheckCollision : MonoBehaviour
                 case 25:
                 case 35:
                 case 55:
+                    
                 case 99:
+                case 150:
                     sound.setAnnouncerVoiceline(points.points);
                     sound.playAnnouncer();
                     break;
-            }
+                case 24:
+                    sound.setMusicInstruments(0.5f);
+                    break;
+                case 54:
+                    sound.setMusicInstruments(1f);
+                    break;
 
+            }
 
             GameObject brWall = Instantiate(brWallSpawn);
             brWall.transform.position = gameObject.transform.position;
             StartCoroutine(waitToKill(brWall));
         }
 
-
         else if (!hit.gameObject.CompareTag(tag) || hit.gameObject.Equals("Wall"))
         {
-            gameOver.gameOver();
-            
+            killPlayer();
         }
         else
         {
@@ -93,4 +102,31 @@ public class CheckCollision : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         Destroy(go);
     }
+
+    public void killPlayer()
+    {
+        move.toggleMovement();
+        if (playDeath)
+        {
+            sound.playDeat();
+            playDeath = false;
+        }
+
+        sound.setMusicInstruments(-1f);
+        GameObject deathBrick = Instantiate(death);
+        deathBrick.transform.position = gameObject.transform.position;
+        StartCoroutine(waitToKill(death));
+        StartCoroutine(waitGameOver());
+    }
+    IEnumerator waitGameOver()
+    {
+        yield return new WaitForSeconds(.7f);
+        gameOver.gameOver();
+    }
+    private void Update()
+    {
+        sound.setWallPan(move.getXPos());
+    }
+
+
 }

@@ -14,5 +14,6 @@ public class GameOver : MonoBehaviour
         Destroy(player);
         gameOverScreen.SetActive(true);
         isGameOver = true;
+        Time.timeScale = 0f;
     }
 }
