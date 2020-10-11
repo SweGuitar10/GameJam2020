@@ -19,15 +19,22 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            isPaused = !isPaused;
+            
             togglePauseMenu();
         }
     }
 
-    private void togglePauseMenu()
+    public void togglePauseMenu()
     {
+        isPaused = !isPaused;
         pauseMenu.SetActive(isPaused);
         shape.enabled = !isPaused;
         Time.timeScale = isPaused ? 0.0f : 1.0f;
+    }
+
+    public void mainMenu()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(0);
     }
 }

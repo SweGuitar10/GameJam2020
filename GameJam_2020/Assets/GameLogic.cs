@@ -17,7 +17,6 @@ public class GameLogic : MonoBehaviour
     public float changeRateSpeed = 1.2f;
     bool change = true;
 
-    public Text speed;
     void Start()
     {
         gameOver = gameObject.GetComponentInChildren<GameOver>();
@@ -54,15 +53,5 @@ public class GameLogic : MonoBehaviour
             change = false;
             
         }
-
-
-        speed.text = "Speed: " + move.forwardSpeed;
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            points.points++;
-        }
-        
-        
-        
     }
 }

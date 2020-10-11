@@ -8,6 +8,10 @@ public class CheckCollision : MonoBehaviour
     ShapeChanger shapeCh;
     GameOver gameOver;
     Points points;
+
+    public GameObject brWallCube, brWallSphere, brWallTriangle;
+    GameObject brWallSpawn;
+
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
@@ -24,12 +28,15 @@ public class CheckCollision : MonoBehaviour
         {
             case 0:
                 tag = "Cube";
+                brWallSpawn = brWallCube;
                 break;
             case 1:
                 tag = "Sphere";
+                brWallSpawn = brWallSphere;
                 break;
             case 2:
                 tag = "Triangle";
+                brWallSpawn = brWallTriangle;
                 break;
             default:
                 tag = "Error";
@@ -38,8 +45,11 @@ public class CheckCollision : MonoBehaviour
 
         if (hit.gameObject.CompareTag(tag))
         {
-            Destroy(hit.gameObject);
             points.points++;
+            Destroy(hit.gameObject);
+            GameObject brWall = Instantiate(brWallSpawn);
+            brWall.transform.position = gameObject.transform.position;
+            StartCoroutine(waitToKill(brWall));
         }
 
         else if (!hit.gameObject.CompareTag(tag) || hit.gameObject.Equals("Wall"))
@@ -47,5 +57,15 @@ public class CheckCollision : MonoBehaviour
             gameOver.gameOver();
             
         }
+        else
+        {
+
+        }
+    }
+
+    IEnumerator waitToKill(GameObject go)
+    {
+        yield return new WaitForSeconds(0.5f);
+        Destroy(go);
     }
 }
