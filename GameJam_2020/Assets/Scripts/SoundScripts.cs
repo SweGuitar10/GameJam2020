@@ -14,6 +14,7 @@ public class SoundScripts : MonoBehaviour
     FMOD.Studio.EventInstance death;
     FMOD.Studio.EventInstance shift;
     FMOD.Studio.EventInstance menuMusic;
+    FMOD.Studio.EventInstance rainSound;
 
     public void setWallPitch(int a)
     {
@@ -80,6 +81,11 @@ public class SoundScripts : MonoBehaviour
     public void stopMenuMusic()
     {
         menuMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
+    public void playRainSound()
+    {
+        rainSound.start();
     }
 
 
