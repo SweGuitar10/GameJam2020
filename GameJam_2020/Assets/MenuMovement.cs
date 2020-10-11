@@ -25,7 +25,23 @@ public class MenuMovement : MonoBehaviour
         {
             if (!pressed)
             {
-                changePosition(pos);
+                if (gameObject.transform.position.x > pos.x)
+                {
+                    xPos++;
+                }
+                else
+                {
+                    xPos--;
+                }
+
+                if (xPos > 1)
+                {
+                    xPos = 1;
+                }
+                else if (xPos < -1)
+                {
+                    xPos = -1;
+                }
             }
             pressed = true;
         }
@@ -33,8 +49,7 @@ public class MenuMovement : MonoBehaviour
         {
             pressed = false;
         }
-        pos = new Vector3(xPos * stepSize, pos.y, pos.z);
-        gameObject.transform.position = pos;
+        gameObject.transform.position = new Vector3(xPos * stepSize, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 
     void changePosition(Vector3 direction)
