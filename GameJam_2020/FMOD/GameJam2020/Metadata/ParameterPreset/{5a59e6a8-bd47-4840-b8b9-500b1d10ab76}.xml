@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{5a59e6a8-bd47-4840-b8b9-500b1d10ab76}">
+		<property name="name">
+			<value>DashPan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c79499b1-d7a8-40d6-a067-c596d679f5d8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b535ecc5-9387-4538-b780-0d12d9a92d02}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b535ecc5-9387-4538-b780-0d12d9a92d02}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.059999998658895493</value>
+		</property>
+	</object>
+</objects>

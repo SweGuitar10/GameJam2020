@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{045428d2-447c-49e1-8606-858f07b6a04b}">
+	<object class="AudioFile" id="{3a5cacad-4543-4cb6-8b58-96bb8ea7a836}">
 		<property name="assetPath">
-			<value>Firework_Scream.wav</value>
+			<value>Dash_Main.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.0477324263038548</value>
+			<value>0.31199546485260771</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3c4736cf-da7e-4af5-b36d-618217c2572f}</destination>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{24d52238-5abb-4028-9779-be960e28ec24}">
+	<object class="AudioFile" id="{99198ae5-d2ae-4278-8ac3-cfc1612b0a43}">
 		<property name="assetPath">
-			<value>Fireworks_Crowd.wav</value>
+			<value>Dash_Noise.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>6.0650566893424038</value>
+			<value>0.31199546485260771</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{3c4736cf-da7e-4af5-b36d-618217c2572f}</destination>
