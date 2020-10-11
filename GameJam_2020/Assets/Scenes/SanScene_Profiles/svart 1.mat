@@ -9,14 +9,14 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: svart 1
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION _GLOSSYREFLECTIONS_OFF _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _GLOSSYREFLECTIONS_OFF _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
     _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2450
   stringTagMap:
-    RenderType: Transparent
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -27,8 +27,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 2.98, y: 1}
+        m_Offset: {x: 0.82, y: -0.55}
     - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -39,12 +39,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 2800000, guid: aa424064ed13ff54b936ec10e55f5766, type: 3}
-        m_Scale: {x: 0.97, y: -6.77}
-        m_Offset: {x: -0.48, y: 0}
+        m_Scale: {x: 0.5, y: -0.52}
+        m_Offset: {x: 1, y: 0.51}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b0865c13941e2cb4ea7ee82c94135942, type: 3}
-        m_Scale: {x: 0.97, y: -6.77}
-        m_Offset: {x: -0.48, y: 0}
+        m_Texture: {fileID: 2800000, guid: aa424064ed13ff54b936ec10e55f5766, type: 3}
+        m_Scale: {x: 0.5, y: -0.52}
+        m_Offset: {x: 1, y: 0.51}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,24 +59,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: -2.77
-    - _Cutoff: 0.5
+    - _Cutoff: 0.58
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
-    - _GlossMapScale: 0.827
+    - _DstBlend: 0
+    - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 0
     - _InvFade: 1
-    - _Metallic: 0.753
-    - _Mode: 3
+    - _Metallic: 0
+    - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _UVSec: 0
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.7529412}
-    - _EmissionColor: {r: 2.297397, g: 0.6036298, b: 2.297397, a: 1}
+    - _Color: {r: 1, g: 0.9103774, b: 0.9103774, a: 1}
+    - _EmissionColor: {r: 2.297397, g: 0.61344105, b: 2.1396272, a: 1}
     - _TintColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

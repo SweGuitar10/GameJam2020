@@ -39,7 +39,7 @@ public class GameLogic : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 Time.timeScale = 1f;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             }
         }
 

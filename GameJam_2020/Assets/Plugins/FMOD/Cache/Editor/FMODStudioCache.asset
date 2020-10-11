@@ -37,7 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/GameJam2020/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637378823012667464
+  lastModified: 637379196550278830
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -63,7 +63,7 @@ MonoBehaviour:
   - {fileID: -3679455518686284984}
   StringsBanks:
   - {fileID: 5875997564725740971}
-  stringsBankWriteTime: 637378823012737425
+  stringsBankWriteTime: 637379196550328814
   cacheVersion: 5
 --- !u!114 &5875997564725740971
 MonoBehaviour:
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/GameJam2020/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637378823012737425
+  lastModified: 637379196550328814
   LoadResult: 0
   FileSizes:
   - Name: Desktop
