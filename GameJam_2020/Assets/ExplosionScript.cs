@@ -7,7 +7,7 @@ public class ExplosionScript : MonoBehaviour
     public Transform[] pieces;
     public Vector3[] directions;
     public float speed = 50f;
-    // Start is called before the first frame update
+
     void Start()
     {
         Vector3 center = new Vector3(0f, 5f, 0f);
@@ -24,7 +24,6 @@ public class ExplosionScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         for (int i = 0; i < pieces.Length; i++)

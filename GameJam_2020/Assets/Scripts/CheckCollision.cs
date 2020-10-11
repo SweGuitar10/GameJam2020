@@ -64,10 +64,6 @@ public class CheckCollision : MonoBehaviour
 
         }
 
-        if ((hit.gameObject.CompareTag("break")))
-        {
-
-        }
     }
 
     IEnumerator waitToKill(GameObject go)
