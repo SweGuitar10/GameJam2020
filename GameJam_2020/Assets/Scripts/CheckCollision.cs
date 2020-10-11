@@ -11,6 +11,7 @@ public class CheckCollision : MonoBehaviour
 
     public GameObject brWallCube, brWallSphere, brWallTriangle;
     GameObject brWallSpawn;
+    public GameObject brWall;
 
     private void Start()
     {
@@ -52,12 +53,18 @@ public class CheckCollision : MonoBehaviour
             StartCoroutine(waitToKill(brWall));
         }
 
+
         else if (!hit.gameObject.CompareTag(tag) || hit.gameObject.Equals("Wall"))
         {
             gameOver.gameOver();
             
         }
         else
+        {
+
+        }
+
+        if ((hit.gameObject.CompareTag("break")))
         {
 
         }

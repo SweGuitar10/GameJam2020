@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1661179623737515230}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.009
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 342589660616370115}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.005
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 5927768760532632272}
   m_Layer: 0
   m_Name: Cube_cell.003_cell
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 73270265294937619}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.004
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -337,7 +337,7 @@ GameObject:
   - component: {fileID: 1796184119723828159}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.010
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 2764833146776329915}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.003
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 3229855521283057580}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.015
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 6698902123475582400}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.007
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 2428027902528506788}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.016
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -742,7 +742,7 @@ GameObject:
   - component: {fileID: 4251990390778387006}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.001
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 4337846032387020438}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.008
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 4134816489391388034}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.006
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 2013516993843985551}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.012
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 6021472666805804117}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.003
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 946021999506558584}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.006
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1228,7 +1228,7 @@ GameObject:
   - component: {fileID: 7629326972165388735}
   m_Layer: 0
   m_Name: Cube_cell.004
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 6325845156531816190}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1390,7 +1390,7 @@ GameObject:
   - component: {fileID: 4932691797280864063}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.005
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1471,7 +1471,7 @@ GameObject:
   - component: {fileID: 3597138717611153973}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.000
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1552,7 +1552,7 @@ GameObject:
   - component: {fileID: 9139140734304060675}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.011
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1633,7 +1633,7 @@ GameObject:
   - component: {fileID: 5268506134434845896}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.011
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 8671222475305543219}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.014
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1795,7 +1795,7 @@ GameObject:
   - component: {fileID: 9155670835996168154}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.001
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1872,10 +1872,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4500150667354829177}
-  - component: {fileID: 2205470944382588174}
+  - component: {fileID: 8268278772282294270}
   m_Layer: 0
-  m_Name: WallPartBreakTriangle
-  m_TagString: Triangle
+  m_Name: WallPartBreak1
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1947,7 +1947,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -93.006, z: 0}
---- !u!114 &2205470944382588174
+--- !u!114 &8268278772282294270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1975,7 +1975,7 @@ GameObject:
   - component: {fileID: 3863093203500531748}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.002
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2056,7 +2056,7 @@ GameObject:
   - component: {fileID: 6623704125805074113}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.004
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2137,7 +2137,7 @@ GameObject:
   - component: {fileID: 7739798175137395469}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.010
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2218,7 +2218,7 @@ GameObject:
   - component: {fileID: 5010072264411740676}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.009
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2299,7 +2299,7 @@ GameObject:
   - component: {fileID: 8864747246759408593}
   m_Layer: 0
   m_Name: Cube_cell.001
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2380,7 +2380,7 @@ GameObject:
   - component: {fileID: 8561197781569148840}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.003
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2461,7 +2461,7 @@ GameObject:
   - component: {fileID: 5444647627704643907}
   m_Layer: 0
   m_Name: Cube_cell.002
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 1091009938257145792}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.004
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2623,7 +2623,7 @@ GameObject:
   - component: {fileID: 4286841460013389592}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.012
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2704,7 +2704,7 @@ GameObject:
   - component: {fileID: 5733553124063941549}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.001
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2785,7 +2785,7 @@ GameObject:
   - component: {fileID: 7232569085523976267}
   m_Layer: 0
   m_Name: Cube_cell.005
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2866,7 +2866,7 @@ GameObject:
   - component: {fileID: 6465545552541389880}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.018
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2947,7 +2947,7 @@ GameObject:
   - component: {fileID: 6501060874153068700}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.004
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3028,7 +3028,7 @@ GameObject:
   - component: {fileID: 9206871191494097972}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.002
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 5413929267655323066}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.019
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3190,7 +3190,7 @@ GameObject:
   - component: {fileID: 2694227223653704468}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.005
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3271,7 +3271,7 @@ GameObject:
   - component: {fileID: 3017947850870498366}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.006
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3352,7 +3352,7 @@ GameObject:
   - component: {fileID: 8736798840824907949}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.013
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3433,7 +3433,7 @@ GameObject:
   - component: {fileID: 7507714262176166291}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.006
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3514,7 +3514,7 @@ GameObject:
   - component: {fileID: 1078500376847331253}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.002
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3595,7 +3595,7 @@ GameObject:
   - component: {fileID: 59685916645233082}
   m_Layer: 0
   m_Name: Cube_cell
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3676,7 +3676,7 @@ GameObject:
   - component: {fileID: 4052520433652065240}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.003
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3757,7 +3757,7 @@ GameObject:
   - component: {fileID: 5580181446682073956}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.007
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3838,7 +3838,7 @@ GameObject:
   - component: {fileID: 5619070884930027538}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.008
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3919,7 +3919,7 @@ GameObject:
   - component: {fileID: 2813980098489436093}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.001
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4000,7 +4000,7 @@ GameObject:
   - component: {fileID: 2517460200362566621}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.017
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4081,7 +4081,7 @@ GameObject:
   - component: {fileID: 8333910115420803966}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.007_cell.010
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4162,7 +4162,7 @@ GameObject:
   - component: {fileID: 5799055204928337110}
   m_Layer: 0
   m_Name: Cube_cell.003_cell.007
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4243,7 +4243,7 @@ GameObject:
   - component: {fileID: 6046884118590337279}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.005
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4324,7 +4324,7 @@ GameObject:
   - component: {fileID: 9159873188397211078}
   m_Layer: 0
   m_Name: Cube_cell.006_cell.002_cell.008
-  m_TagString: Triangle
+  m_TagString: break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
