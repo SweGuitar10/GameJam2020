@@ -5730,6 +5730,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0013679578, y: 0.03751081, z: 0.016988596}
   m_Center: {x: -0.0004559799, y: 0.0055692135, z: -0.0017836614}
+--- !u!1 &816390033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816390034}
+  m_Layer: 0
+  m_Name: SoundLily
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &816390034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816390033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.26766, y: 5.0358505, z: 39.63988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &922317727 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3223717554486420175, guid: 14be26a410c35a24cbc4ee6df924ed10,
