@@ -27,6 +27,11 @@ public class SoundScripts : MonoBehaviour
         mainLevelMusic.setParameterByName("LVL", a);
     }
 
+    public void setWallPan(float a)
+    {
+        wallHit.setParameterByName("WallhitPan", a);
+    }
+
     public void playHighscore()
     {
         highscore.start();
