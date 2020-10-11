@@ -1582,5 +1582,25 @@ PrefabInstance:
       propertyPath: forwardSpeed
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 7303773159489644496, guid: 109a7baadf850c747acfd177f7cd6ec6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303773159489644527, guid: 109a7baadf850c747acfd177f7cd6ec6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e21c6c06232026e41aacc3a0f8ff6706, type: 2}
+    - target: {fileID: 7303773159863411015, guid: 109a7baadf850c747acfd177f7cd6ec6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d99b0bf3d015c4e42ba3652cc0b5eab1, type: 2}
+    - target: {fileID: 7303773159863411016, guid: 109a7baadf850c747acfd177f7cd6ec6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 109a7baadf850c747acfd177f7cd6ec6, type: 3}

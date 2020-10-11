@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{5c02704b-a81b-43e9-b6e8-41e1c6bf32d9}">
+		<property name="name">
+			<value>Pickups</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c79499b1-d7a8-40d6-a067-c596d679f5d8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e46205bf-5daf-48cf-b6db-06654c80cc19}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e46205bf-5daf-48cf-b6db-06654c80cc19}">
+		<property name="maximum">
+			<value>15</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

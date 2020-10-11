@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UltraNeonByte
+  m_Name: PlayerSphereMaterial
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _GLOSSYREFLECTIONS_OFF _SPECGLOSSMAP _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 2
@@ -37,12 +37,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 2800000, guid: aa424064ed13ff54b936ec10e55f5766, type: 3}
-        m_Scale: {x: 0.97, y: -6.77}
-        m_Offset: {x: -0.48, y: 0}
+        m_Scale: {x: 2.05, y: 0.27}
+        m_Offset: {x: -1.25, y: -1.15}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: b0865c13941e2cb4ea7ee82c94135942, type: 3}
-        m_Scale: {x: 6.45, y: -5.56}
-        m_Offset: {x: -0.48, y: 0}
+        m_Scale: {x: 2.05, y: 0.27}
+        m_Offset: {x: -1.25, y: -1.15}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -79,7 +79,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0.30588236}
-    - _EmissionColor: {r: 2.297397, g: 0.6036298, b: 2.297397, a: 1}
+    - _EmissionColor: {r: 0.61344105, g: 2.1296253, b: 2.297397, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TintColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
