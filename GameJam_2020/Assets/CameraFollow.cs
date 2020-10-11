@@ -18,6 +18,6 @@ public class CameraFollow : MonoBehaviour
     public void followPlayer()
     {
         playerPos = player.transform.position;
-        gameObject.transform.position = new Vector3(0f, 7f, playerPos.z - 5f);
+        gameObject.transform.position = new Vector3(0f, 8f, playerPos.z - 7f);
     }
 }
