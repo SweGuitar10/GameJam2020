@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class SoundScripts : MonoBehaviour
@@ -12,6 +13,7 @@ public class SoundScripts : MonoBehaviour
     FMOD.Studio.EventInstance highscore;
     FMOD.Studio.EventInstance death;
     FMOD.Studio.EventInstance shift;
+    FMOD.Studio.EventInstance menuMusic;
 
     public void setWallPitch(int a)
     {
@@ -70,6 +72,16 @@ public class SoundScripts : MonoBehaviour
         shift.start();
     }
 
+    public void playMenuMusic()
+    {
+        menuMusic.start();
+    }
+
+    public void stopMenuMusic()
+    {
+        menuMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -81,6 +93,6 @@ public class SoundScripts : MonoBehaviour
         highscore = FMODUnity.RuntimeManager.CreateInstance("event:/Highscore");
         death = FMODUnity.RuntimeManager.CreateInstance("event:/Death");
         shift = FMODUnity.RuntimeManager.CreateInstance("event:/Shift");
-        playMusic();
+        menuMusic = FMODUnity.RuntimeManager.CreateInstance("event:/MenuMusic");
     }
 }

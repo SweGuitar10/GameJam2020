@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    SoundScripts sound;
+    private void Start()
+    {
+        sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
+
+        sound.playMenuMusic();
+    }
 
     public void startGame()
     {
+        sound.stopMenuMusic();
         SceneManager.LoadScene(1);
     }
     public void exit()

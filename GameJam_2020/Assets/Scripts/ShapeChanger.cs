@@ -14,7 +14,7 @@ public class ShapeChanger : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKey(KeyCode.J))
+        if(Input.GetKeyDown(KeyCode.J))
         {
             sound.playShapeShift();
             shape = 0;
@@ -22,14 +22,14 @@ public class ShapeChanger : MonoBehaviour
            
         }
 
-        if (Input.GetKey(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             sound.playShapeShift();
             shape = 1;
             changeShape(shape);
         }
 
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             sound.playShapeShift();
             shape = 2;

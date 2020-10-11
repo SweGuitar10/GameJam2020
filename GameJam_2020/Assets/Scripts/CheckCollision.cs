@@ -19,6 +19,7 @@ public class CheckCollision : MonoBehaviour
     Movement move;
 
     bool playDeath = true;
+    bool playMusic;
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
@@ -26,6 +27,8 @@ public class CheckCollision : MonoBehaviour
         points = gameObject.GetComponent<Points>();
         sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
         move = GameObject.Find("Player").GetComponent<Movement>();
+        playMusic = true;
+        
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -126,6 +129,11 @@ public class CheckCollision : MonoBehaviour
     private void Update()
     {
         sound.setWallPan(move.getXPos());
+        if(points.points == 1 && playMusic)
+        {
+            playMusic = false;
+            sound.playMusic();
+        }
     }
 
 

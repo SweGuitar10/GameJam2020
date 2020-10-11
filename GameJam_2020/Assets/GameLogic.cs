@@ -59,4 +59,10 @@ public class GameLogic : MonoBehaviour
             points.points++;
         }
     }
+
+    public void restartMap()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(1);
+    }
 }
