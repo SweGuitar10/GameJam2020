@@ -25,10 +25,6 @@ public class FloorSpawner : MonoBehaviour
     private void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            spawnFloor();
-        }
     }
     public void spawnFloor()
     {
