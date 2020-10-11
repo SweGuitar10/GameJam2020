@@ -47,7 +47,7 @@ public class GameLogic : MonoBehaviour
         {
             change = true;
         }
-        else if (change && points.points > 0 && points.points % 5 == 0)
+        else if (change && points.points > 0 && points.points % 7 == 0)
         {
             bpmScript.bpm += changeRateBPM;
             spawnWall.spawnDist -= changeRateWall;

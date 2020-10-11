@@ -19,6 +19,8 @@ public class FloorSpawner : MonoBehaviour
             floors.Add(gameObject.transform.GetChild(i).gameObject);
         }
         lastPos = floors[gameObject.transform.childCount - 1].transform.position;
+
+
     }
     private void Update()
     {

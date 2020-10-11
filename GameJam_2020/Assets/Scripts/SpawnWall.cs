@@ -8,6 +8,7 @@ public class SpawnWall : MonoBehaviour
     public GameObject fakeWall;
     public List<GameObject> shapeWalls;
     public float spawnDist = 100f;
+    float wallHeight = 2.5f;
 
     public void spawnFakeWall()
     {
@@ -17,9 +18,9 @@ public class SpawnWall : MonoBehaviour
         GameObject wallFake2 = Instantiate(fakeWall);
         float z = gameObject.transform.position.z + spawnDist;
 
-        Vector3 wall1 = new Vector3(-5f, 3f, z);
-        Vector3 wall2 = new Vector3(0f, 3f, z);
-        Vector3 wall3 = new Vector3(5f, 3f, z);
+        Vector3 wall1 = new Vector3(-5f, wallHeight, z);
+        Vector3 wall2 = new Vector3(0f, wallHeight, z);
+        Vector3 wall3 = new Vector3(5f, wallHeight, z);
 
         switch (shapePos)
         {
@@ -53,9 +54,9 @@ public class SpawnWall : MonoBehaviour
 
 
         float z = gameObject.transform.position.z + spawnDist;
-        Vector3 wall1 = new Vector3(-5f, 3f, z);
-        Vector3 wall2 = new Vector3(0f, 3f, z);
-        Vector3 wall3 = new Vector3(5f, 3f, z);
+        Vector3 wall1 = new Vector3(-5f, wallHeight, z);
+        Vector3 wall2 = new Vector3(0f, wallHeight, z);
+        Vector3 wall3 = new Vector3(5f, wallHeight, z);
 
         switch(shapePos)
         {

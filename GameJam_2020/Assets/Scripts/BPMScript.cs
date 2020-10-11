@@ -15,15 +15,7 @@ public class BPMScript : MonoBehaviour
     GameOver gameOver;
     SpawnWall spawnWall;
     public GameObject player;
-
-    private void Awake()
-    {
-        
-
-
-        
-
-    }
+    
     private void Start()
     {
         if (bpmScriptInstance != null && bpmScriptInstance != this)

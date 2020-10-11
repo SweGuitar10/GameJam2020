@@ -8,17 +8,19 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public CharacterController controller;
-    public Transform cam;
+    public GameObject spawn;
 
     public float forwardSpeed = 25f;
     public float horizontalSpeed = 10f;
     public float stepSize = 5f;
     int xPos = 0;
     bool pressed;
+
+
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        Vector3 direction = new Vector3(horizontal, 0f, 0f).normalized;
+        Vector3 direction = new Vector3(horizontal, spawn.transform.position.y, spawn.transform.position.z).normalized;
         
         controller.Move(Vector3.forward  * forwardSpeed * Time.deltaTime); // Autoscroll
 
