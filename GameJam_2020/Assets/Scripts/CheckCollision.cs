@@ -108,6 +108,7 @@ public class CheckCollision : MonoBehaviour
 
     public void killPlayer()
     {
+        sound.stopRainSound();
         move.toggleMovement();
         if (playDeath)
         {

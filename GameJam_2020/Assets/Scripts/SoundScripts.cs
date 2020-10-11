@@ -88,6 +88,11 @@ public class SoundScripts : MonoBehaviour
         rainSound.start();
     }
 
+    public void stopRainSound()
+    {
+        rainSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -100,5 +105,8 @@ public class SoundScripts : MonoBehaviour
         death = FMODUnity.RuntimeManager.CreateInstance("event:/Death");
         shift = FMODUnity.RuntimeManager.CreateInstance("event:/Shift");
         menuMusic = FMODUnity.RuntimeManager.CreateInstance("event:/MenuMusic");
+        rainSound = FMODUnity.RuntimeManager.CreateInstance("event:/RainLoop");
+
+        playRainSound();
     }
 }
