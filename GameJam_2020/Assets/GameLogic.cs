@@ -26,7 +26,6 @@ public class GameLogic : MonoBehaviour
         bpmScript = GameObject.Find("BPM").GetComponent<BPMScript>();
         move = gameObject.GetComponentInChildren<Movement>();
 
-
         bpmScript.bpm = 70f;
         spawnWall.spawnDist = 150f;
     }
@@ -62,6 +61,7 @@ public class GameLogic : MonoBehaviour
         {
             points.points++;
         }
+        
         
         
     }

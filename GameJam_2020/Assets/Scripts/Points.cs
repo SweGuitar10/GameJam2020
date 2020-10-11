@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Points : MonoBehaviour
 {
     public float points;
-
-    public Text pointText;
+    public TMP_Text pointText;
+    //public Text pointText;
     private void Start()
     {
         points = 0;
