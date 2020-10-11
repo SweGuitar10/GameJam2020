@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Points : MonoBehaviour
 {
-    public float points;
+    public int points;
     public TMP_Text pointText;
     //public Text pointText;
     private void Start()
@@ -16,7 +16,7 @@ public class Points : MonoBehaviour
 
     private void Update()
     {
-        pointText.text = "Points: "+ (int)points;
+        pointText.text = "Points: "+ points;
     }
 
     

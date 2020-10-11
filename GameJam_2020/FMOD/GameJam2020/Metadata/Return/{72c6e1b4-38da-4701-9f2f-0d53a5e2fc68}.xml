@@ -18,6 +18,7 @@
 		<relationship name="effects">
 			<destination>{bebf06bb-8551-4689-a691-d0eab164ffc8}</destination>
 			<destination>{88018d35-0b57-4f60-8087-caebab168a90}</destination>
+			<destination>{f2bdd212-df09-44e4-88dc-21068ef381c9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d9e7c7cc-66e2-413f-9a24-669e04d7e013}">
@@ -31,6 +32,7 @@
 			<value>-3</value>
 		</property>
 	</object>
+	<object class="CompressorEffect" id="{f2bdd212-df09-44e4-88dc-21068ef381c9}" />
 	<object class="LFOModulator" id="{1e229025-d500-493c-b3d7-4fb38ad842ff}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>stereoPan</value>

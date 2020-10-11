@@ -13,12 +13,16 @@ public class CheckCollision : MonoBehaviour
     GameObject brWallSpawn;
     public GameObject brWall;
 
+    SoundScripts sound;
+
     private void Start()
     {
         shapeCh = gameObject.GetComponent<ShapeChanger>();
         gameOver = gameObject.GetComponent<GameOver>();
         points = gameObject.GetComponent<Points>();
+        sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
 
+        sound.playMusic();
 
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -48,6 +52,24 @@ public class CheckCollision : MonoBehaviour
         {
             points.points++;
             Destroy(hit.gameObject);
+
+            sound.setWallPitch(points.points);
+            sound.playWallHit();
+
+            sound.playPickup();
+
+            switch (points.points)
+            {
+                case 25:
+                case 35:
+                case 55:
+                case 99:
+                    sound.setAnnouncerVoiceline(points.points);
+                    sound.playAnnouncer();
+                    break;
+            }
+
+
             GameObject brWall = Instantiate(brWallSpawn);
             brWall.transform.position = gameObject.transform.position;
             StartCoroutine(waitToKill(brWall));

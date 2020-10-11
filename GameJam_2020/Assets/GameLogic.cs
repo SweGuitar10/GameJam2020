@@ -53,5 +53,10 @@ public class GameLogic : MonoBehaviour
             change = false;
             
         }
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            points.points++;
+        }
     }
 }
