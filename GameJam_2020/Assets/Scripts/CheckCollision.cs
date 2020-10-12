@@ -120,7 +120,7 @@ public class CheckCollision : MonoBehaviour
         }
 
         sound.setMusicInstruments(-1f);
-        GameObject deathBrick = Instantiate(death);
+        GameObject deathBrick = Instantiate(death); // Here is bug
         deathBrick.transform.position = gameObject.transform.position;
         StartCoroutine(waitToKill(death));
         StartCoroutine(waitGameOver());
