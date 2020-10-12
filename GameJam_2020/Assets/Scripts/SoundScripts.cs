@@ -85,15 +85,12 @@ public class SoundScripts : MonoBehaviour
 
     public void playRainSound()
     {
-        Debug.Log("play rain");
         rainSound.setParameterByName("LVL", 0f);
         rainSound.start();
     }
 
     public void stopRainSound()
     {
-        Debug.Log("stop rain");
-
         rainSound.setParameterByName("LVL", -1f);
     }
 
