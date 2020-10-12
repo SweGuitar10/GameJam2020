@@ -17,6 +17,7 @@ public class GameLogic : MonoBehaviour
     public float changeRateWall = 5f;
     public float changeRateSpeed = 1.2f;
     bool change = true;
+    GameObject partSys;
 
     void Start()
     {
@@ -26,6 +27,9 @@ public class GameLogic : MonoBehaviour
         bpmScript = GameObject.Find("BPM").GetComponent<BPMScript>();
         move = gameObject.GetComponentInChildren<Movement>();
         sound = gameObject.GetComponentInChildren<SoundScripts>();
+
+        partSys = GameObject.Find("ParticleSystems");
+        partSys.gameObject.SetActive(false);
 
         bpmScript.bpm = 70f;
         spawnWall.spawnDist = 150f;
@@ -53,6 +57,11 @@ public class GameLogic : MonoBehaviour
             spawnWall.spawnDist -= changeRateWall;
             move.forwardSpeed += changeRateSpeed;
             change = false;
+        }
+
+        if(points.points > 0)
+        {
+            partSys.gameObject.SetActive(true);
         }
     }
 
