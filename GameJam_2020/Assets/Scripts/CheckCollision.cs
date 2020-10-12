@@ -120,8 +120,12 @@ public class CheckCollision : MonoBehaviour
         }
 
         sound.setMusicInstruments(-1f);
-        GameObject deathBrick = Instantiate(death); // Here is bug
-        deathBrick.transform.position = gameObject.transform.position;
+        // GameObject deathBrick = Instantiate(death); // Here is bug
+        
+        GameObject instance = Instantiate(Resources.Load("PlayerDeath", typeof(GameObject))) as GameObject;
+        //deathBrick.transform.position = gameObject.transform.position;
+        instance.transform.position = gameObject.transform.position;
+
         StartCoroutine(waitToKill(death));
         StartCoroutine(waitGameOver());
     }
