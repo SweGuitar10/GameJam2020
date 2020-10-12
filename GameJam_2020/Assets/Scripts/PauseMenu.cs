@@ -9,11 +9,12 @@ public class PauseMenu : MonoBehaviour
     public bool isPaused = false;
     ShapeChanger shape;
     GameOver gameOver;
-    // Start is called before the first frame update
+    SoundScripts sound;
     void Start()
     {
         shape = GameObject.Find("Player").GetComponent<ShapeChanger>();
         gameOver = GameObject.Find("Player").GetComponent<GameOver>();
+        sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
     }
 
     // Update is called once per frame
@@ -40,6 +41,7 @@ public class PauseMenu : MonoBehaviour
     public void mainMenu()
     {
         Time.timeScale = 1.0f;
+        sound.setMusicInstruments(-1f);
         SceneManager.LoadScene(0);
     }
 }

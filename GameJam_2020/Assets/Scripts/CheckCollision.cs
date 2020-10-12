@@ -78,6 +78,9 @@ public class CheckCollision : MonoBehaviour
                 case 24:
                     sound.setMusicInstruments(0.5f);
                     break;
+                case 34:
+                    sound.setMusicInstruments(0.7f);
+                    break;
                 case 54:
                     sound.setMusicInstruments(1f);
                     break;
