@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9115321542061939399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WallHit/Pickups
+  m_EditorClassIdentifier: 
+  Name: Pickups
+  Min: 0
+  Max: 150
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-9040444752566552323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,6 +426,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6258027788934099324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shift/WallhitPan
+  m_EditorClassIdentifier: 
+  Name: WallhitPan
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6218055483845667997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,7 +706,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 4781140022568280046}
+  - {fileID: 5484000013345097379}
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
@@ -952,7 +992,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1550909236729994223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1012,7 +1052,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1160422332412156714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,7 +1187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/GameJam2020/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637380539026627702
+  lastModified: 637380530608292095
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1247,7 +1287,7 @@ MonoBehaviour:
   - {fileID: 5537813488745677769}
   StringsBanks:
   - {fileID: -352234597104227436}
-  stringsBankWriteTime: 637380539026627702
+  stringsBankWriteTime: 637380530608292095
   cacheVersion: 5
 --- !u!114 &211090919323362611
 MonoBehaviour:
@@ -1448,7 +1488,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2283728555680702523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1598,7 +1638,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 4241291376597382003}
+  - {fileID: -6258027788934099324}
   MinDistance: 0
   MaxDistance: 0
   Length: 200
@@ -1662,6 +1702,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3787293483245125086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Announcer/Pickups
+  m_EditorClassIdentifier: 
+  Name: Pickups
+  Min: 0
+  Max: 150
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3813328910674623585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1702,6 +1762,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &4029866697647301250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MenuMusic/LVL
+  m_EditorClassIdentifier: 
+  Name: LVL
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4035630012470831713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1722,7 +1802,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -1642053002218389307}
+  - {fileID: 3787293483245125086}
   MinDistance: 0
   MaxDistance: 0
   Length: 22767
@@ -1759,6 +1839,26 @@ MonoBehaviour:
   m_Name: parameter:/Shift/WallhitPan
   m_EditorClassIdentifier: 
   Name: WallhitPan
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &4244517644787314947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RainLoop/LVL
+  m_EditorClassIdentifier: 
+  Name: LVL
   Min: -1
   Max: 1
   Default: 0
@@ -1868,7 +1968,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4852690849880069265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1948,6 +2048,46 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
+  Exists: 0
+--- !u!114 &5353888054699552879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WallHit/WallhitPan
+  m_EditorClassIdentifier: 
+  Name: WallhitPan
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &5484000013345097379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MainLevelMusic/LVL
+  m_EditorClassIdentifier: 
+  Name: LVL
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &5537813488745677769
 MonoBehaviour:
@@ -1963,7 +2103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/GameJam2020/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637380539026557903
+  lastModified: 637380530608062178
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -2107,8 +2247,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 6824897743822501665}
-  - {fileID: -1302413767353120775}
+  - {fileID: -9115321542061939399}
+  - {fileID: 5353888054699552879}
   MinDistance: 0
   MaxDistance: 0
   Length: 1480
@@ -2131,7 +2271,7 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &6825379689228147037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2372,7 +2512,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2276665220835540485}
+  - {fileID: 4029866697647301250}
   MinDistance: 0
   MaxDistance: 0
   Length: 5500
@@ -2496,7 +2636,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5352823517621365620}
+  - {fileID: 4244517644787314947}
   MinDistance: 0
   MaxDistance: 0
   Length: 10000
