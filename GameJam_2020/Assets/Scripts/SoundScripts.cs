@@ -85,12 +85,16 @@ public class SoundScripts : MonoBehaviour
 
     public void playRainSound()
     {
+        Debug.Log("play rain");
+        rainSound.setParameterByName("LVL", 0f);
         rainSound.start();
     }
 
     public void stopRainSound()
     {
-        rainSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        Debug.Log("stop rain");
+
+        rainSound.setParameterByName("LVL", -1f);
     }
 
 
@@ -106,7 +110,7 @@ public class SoundScripts : MonoBehaviour
         shift = FMODUnity.RuntimeManager.CreateInstance("event:/Shift");
         menuMusic = FMODUnity.RuntimeManager.CreateInstance("event:/MenuMusic");
         rainSound = FMODUnity.RuntimeManager.CreateInstance("event:/RainLoop");
-
+        stopRainSound();
         playRainSound();
     }
 }

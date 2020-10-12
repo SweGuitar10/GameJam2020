@@ -42,6 +42,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         sound.setMusicInstruments(-1f);
+        sound.stopRainSound();
         SceneManager.LoadScene(0);
     }
 }

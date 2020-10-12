@@ -11,6 +11,7 @@ public class GameLogic : MonoBehaviour
     SpawnWall spawnWall;
     Points points;
     Movement move;
+    SoundScripts sound;
 
     public float changeRateBPM = 7f;
     public float changeRateWall = 5f;
@@ -24,6 +25,7 @@ public class GameLogic : MonoBehaviour
         points = gameObject.GetComponentInChildren<Points>();
         bpmScript = GameObject.Find("BPM").GetComponent<BPMScript>();
         move = gameObject.GetComponentInChildren<Movement>();
+        sound = gameObject.GetComponentInChildren<SoundScripts>();
 
         bpmScript.bpm = 70f;
         spawnWall.spawnDist = 150f;
@@ -57,6 +59,7 @@ public class GameLogic : MonoBehaviour
     public void restartMap()
     {
         Time.timeScale = 1f;
+        //sound.stopRainSound();
         SceneManager.LoadScene(1);
     }
 }

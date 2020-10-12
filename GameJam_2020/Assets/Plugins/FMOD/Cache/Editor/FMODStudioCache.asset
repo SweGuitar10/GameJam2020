@@ -1,952 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9115321542061939399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-9040444752566552323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-8970831279734492768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-8880969233227820335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-8722271206639055548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-8395696206582940836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-8283480784530609501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-8205810790958651173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-8192222757601507031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-7918703883133418510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-7902924546880489121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-7805595786990617262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-7782843777274732778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-7676704087290907130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-7645092922004667572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-7491049856648946312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-7429998790869294872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-7059956729869734451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-7041584014831839064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-6919309414701187054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6918660368008585358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Highscore
-  m_EditorClassIdentifier: 
-  Path: event:/Highscore
-  guid: cf00a64f27b68241b2c00895e38b007f
-  Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 6065
---- !u!114 &-6804422354651060384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6792385539867706366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/VO Highpass
-  m_EditorClassIdentifier: 
-  Path: snapshot:/VO Highpass
-  guid: 176e835e64fac049bff256c97b63a6ac
-  Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &-6739107098916668101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6652517819093634520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6615725103968328196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-6605385521423603159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6395808050967668701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-6302656226689388337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6280746938197143426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6258027788934099324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-6218055483845667997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-6036208719161052899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-6025334811749815642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-5445460292564462406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-5354009395251159803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-5237009637305328808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-5208288421055491654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-5071592180380633121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-5052774290097408816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-5011910205082861422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-4851662174188327027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-4708525258881648167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-4532994124647949955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-4488766236609709249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-4392617189610283316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-4287281632670721270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-4282599421163319699
+--- !u!114 &-4396932395276257175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -961,971 +15,16 @@ MonoBehaviour:
   Path: event:/MainLevelMusic
   guid: cc33a3a836461242b332c3e34071ab15
   Banks:
-  - {fileID: 5537813488745677769}
+  - {fileID: 2464861029685401806}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-<<<<<<< HEAD
-  - {fileID: 5484000013345097379}
-=======
-  - {fileID: 1195289619841384978}
->>>>>>> main
+  - {fileID: -3885885568944662002}
   MinDistance: 0
   MaxDistance: 0
   Length: 16800
---- !u!114 &-4097031840529505473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pickup
-  m_EditorClassIdentifier: 
-  Path: event:/Pickup
-  guid: 7af2846b4a79e843b978845137409f88
-  Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 640
---- !u!114 &-3965327616138304151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-3761738149200637097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-3638752946683874442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-3480494050626422675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-3260915281780441416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-3184132001123916395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-3129964279195731396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2968447275335245940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2858100672124614243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2650297098888191842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2602142827918132578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-2592356002110643415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2445488489917400509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2361692793736191842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-2102863131682800811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-1642053002218389307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-1550909236729994223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-1499790730715472062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-1460664473317751436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-1302413767353120775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-<<<<<<< HEAD
-  Exists: 0
-=======
-  Exists: 1
---- !u!114 &-1266531214050010704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
->>>>>>> main
---- !u!114 &-1160422332412156714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-1120326373089947175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-927149179368824452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-893199806796542100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-808292700121015908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-681238541075754661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-617277310818472925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-380669453243655440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-352234597104227436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/GameJam2020/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-<<<<<<< HEAD
-  lastModified: 637380530608292095
-=======
-  lastModified: 637380566789600415
->>>>>>> main
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1568
-  Exists: 1
---- !u!114 &-352229005548466078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-327184761759307797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-220739992748126430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-176625803893851110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-89279495721686327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -352234597104227436}
-  - {fileID: 5537813488745677769}
-  EditorEvents:
-  - {fileID: 2283728555680702523}
-  - {fileID: 4035630012470831713}
-  - {fileID: 2721293839589551978}
-  - {fileID: 4516214242263577350}
-  - {fileID: -4097031840529505473}
-  - {fileID: -4282599421163319699}
-  - {fileID: -6918660368008585358}
-  - {fileID: 6647644223612028353}
-  - {fileID: -6792385539867706366}
-  - {fileID: 3399093657896800841}
-  - {fileID: 3448330372506831848}
-  - {fileID: 8548141588698315860}
-  - {fileID: 9114412644885604030}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 5537813488745677769}
-  StringsBanks:
-  - {fileID: -352234597104227436}
-<<<<<<< HEAD
-  stringsBankWriteTime: 637380530608292095
-=======
-  stringsBankWriteTime: 637380566789600415
->>>>>>> main
-  cacheVersion: 5
---- !u!114 &211090919323362611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &308052674622882151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &385863521943359066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &545179653027799399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &735835416573416161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &739435464294147726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &1048192961510536268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &1195289619841384978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &1381144766416830636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &1388036877997680134
+--- !u!114 &-4034936847203464176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1944,8 +43,8 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 0
---- !u!114 &1412532230494390652
+  Exists: 1
+--- !u!114 &-3885885568944662002
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1958,197 +57,14 @@ MonoBehaviour:
   m_Name: parameter:/MainLevelMusic/LVL
   m_EditorClassIdentifier: 
   Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &1580786438258783112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
   Min: -1
   Max: 1
   Default: 0
   ID:
     data1: 0
     data2: 0
-  Exists: 0
---- !u!114 &1644746641559856111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &1854395431898063690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &1988557360180987784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &2112897146166209008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &2214441137673440746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &2276665220835540485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &2283728555680702523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TestMusic
-  m_EditorClassIdentifier: 
-  Path: event:/TestMusic
-  guid: aaa39eeb5f50a943b318871d8e664e15
-  Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 9824
---- !u!114 &2488082602899015571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &2721293839589551978
+  Exists: 1
+--- !u!114 &-3322967370010662565
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2163,7 +79,7 @@ MonoBehaviour:
   Path: snapshot:/DuckMusic
   guid: 3d1fd40467a16443b286a71e3e4d96bf
   Banks:
-  - {fileID: 5537813488745677769}
+  - {fileID: 2464861029685401806}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2171,127 +87,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &2863509869064812184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3064878326416066237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &3086784586278288635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3130716835062606366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3170891569653962968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3221175434032677948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3399093657896800841
+--- !u!114 &-2841194088331272206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2301,68 +97,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Death
+  m_Name: event:/Pickup
   m_EditorClassIdentifier: 
-  Path: event:/Death
-  guid: a0919c69a9d9c944a35b8e4e6893f2ed
+  Path: event:/Pickup
+  guid: 7af2846b4a79e843b978845137409f88
   Banks:
-  - {fileID: 5537813488745677769}
+  - {fileID: 2464861029685401806}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 8000
---- !u!114 &3448330372506831848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Shift
-  m_EditorClassIdentifier: 
-  Path: event:/Shift
-  guid: 87811dcaa11913489b71107274e111e6
-  Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-<<<<<<< HEAD
-  - {fileID: -6258027788934099324}
-=======
-  - {fileID: -327184761759307797}
->>>>>>> main
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 200
---- !u!114 &3543864341218222199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3563522253187686049
+  Length: 640
+--- !u!114 &-1505095460697065656
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2381,108 +129,8 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 0
---- !u!114 &3786732691248420920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3787293483245125086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
   Exists: 1
---- !u!114 &3813328910674623585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &3936659306855522229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4029866697647301250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4035630012470831713
+--- !u!114 &-1381092886172035246
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2492,140 +140,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Announcer
+  m_Name: snapshot:/VO Highpass
   m_EditorClassIdentifier: 
-  Path: event:/Announcer
-  guid: 00b7d3761fea284fb8d76f4dabf622fc
+  Path: snapshot:/VO Highpass
+  guid: 176e835e64fac049bff256c97b63a6ac
   Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-<<<<<<< HEAD
-  - {fileID: 3787293483245125086}
-=======
-  - {fileID: 4862656611856229781}
->>>>>>> main
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 22767
---- !u!114 &4090722689911991220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4241291376597382003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &4244517644787314947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4399258612507908304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &4410193437053165630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4516214242263577350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/VO DuckMusic
-  m_EditorClassIdentifier: 
-  Path: snapshot:/VO DuckMusic
-  guid: 430aabb95006754c9288e68f789adfec
-  Banks:
-  - {fileID: 5537813488745677769}
+  - {fileID: 2464861029685401806}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -2633,7 +153,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &4779489038203438764
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2642,18 +162,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &4781140022568280046
+  EditorBanks:
+  - {fileID: 8420258408853954884}
+  - {fileID: 2464861029685401806}
+  EditorEvents:
+  - {fileID: 1451625138868733927}
+  - {fileID: 5284271349419525946}
+  - {fileID: -1381092886172035246}
+  - {fileID: -3322967370010662565}
+  - {fileID: 4686458088163270999}
+  - {fileID: 5432829129537040573}
+  - {fileID: -2841194088331272206}
+  - {fileID: 7877056743368458902}
+  - {fileID: 6372067344761387416}
+  - {fileID: 1097646464066504088}
+  - {fileID: -4396932395276257175}
+  - {fileID: 6306256395075938945}
+  - {fileID: 1238496842105743425}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2464861029685401806}
+  StringsBanks:
+  - {fileID: 8420258408853954884}
+  stringsBankWriteTime: 637380566789600415
+  cacheVersion: 5
+--- !u!114 &1095955677970859368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2663,167 +199,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &4852690849880069265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &4862656611856229781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4900772899671298747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &5100757841843498524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &5154872487872429686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &5352823517621365620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &5353888054699552879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &5484000013345097379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
+  m_Name: parameter:/MenuMusic/LVL
   m_EditorClassIdentifier: 
   Name: LVL
   Min: -1
@@ -2833,7 +209,7 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &5537813488745677769
+--- !u!114 &1097646464066504088
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2842,180 +218,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestMusic
   m_EditorClassIdentifier: 
-  Path: FMOD/GameJam2020/Build/Desktop/Master.bank
-  Name: Master
-<<<<<<< HEAD
-  lastModified: 637380530608062178
-=======
-  lastModified: 637380566789500727
->>>>>>> main
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &5634845377503496375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &5827817797003032953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &5984500017489830735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &6501487312010082541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &6539026106304782783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &6637835773885032010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &6642430228022551338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Announcer/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &6647489117138287884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &6647644223612028353
+  Path: event:/TestMusic
+  guid: aaa39eeb5f50a943b318871d8e664e15
+  Banks:
+  - {fileID: 2464861029685401806}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9824
+--- !u!114 &1238496842105743425
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3030,22 +247,41 @@ MonoBehaviour:
   Path: event:/WallHit
   guid: ecc6fcd8677d464e8436b72f837a697b
   Banks:
-  - {fileID: 5537813488745677769}
+  - {fileID: 2464861029685401806}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-<<<<<<< HEAD
-  - {fileID: -9115321542061939399}
-  - {fileID: 5353888054699552879}
-=======
-  - {fileID: -352229005548466078}
-  - {fileID: -7041584014831839064}
->>>>>>> main
+  - {fileID: 5801963216204315071}
+  - {fileID: -1505095460697065656}
   MinDistance: 0
   MaxDistance: 0
   Length: 1480
---- !u!114 &6772298676443208965
+--- !u!114 &1451625138868733927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Announcer
+  m_EditorClassIdentifier: 
+  Path: event:/Announcer
+  guid: 00b7d3761fea284fb8d76f4dabf622fc
+  Banks:
+  - {fileID: 2464861029685401806}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7625248838660383121}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 22767
+--- !u!114 &1560157889862719515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3055,17 +291,106 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
+  m_Name: parameter:/Shift/WallhitPan
   m_EditorClassIdentifier: 
-  Name: LVL
+  Name: WallhitPan
   Min: -1
   Max: 1
   Default: 0
   ID:
     data1: 0
     data2: 0
-  Exists: 0
---- !u!114 &6824897743822501665
+  Exists: 1
+--- !u!114 &2464861029685401806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/GameJam2020/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637380566789500727
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4686458088163270999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/VO DuckMusic
+  m_EditorClassIdentifier: 
+  Path: snapshot:/VO DuckMusic
+  guid: 430aabb95006754c9288e68f789adfec
+  Banks:
+  - {fileID: 2464861029685401806}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5284271349419525946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MenuMusic
+  m_EditorClassIdentifier: 
+  Path: event:/MenuMusic
+  guid: 06ad168ed9178b4da4939573c26f4177
+  Banks:
+  - {fileID: 2464861029685401806}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1095955677970859368}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 19200
+--- !u!114 &5432829129537040573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainLoop
+  m_EditorClassIdentifier: 
+  Path: event:/RainLoop
+  guid: 71c126d0c09d994187cd6acd127e60c1
+  Banks:
+  - {fileID: 2464861029685401806}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4034936847203464176}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10000
+--- !u!114 &5801963216204315071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3084,248 +409,8 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 0
---- !u!114 &6825379689228147037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
   Exists: 1
---- !u!114 &6877275657615592794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &6910654050363401883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &7147957199082795262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &7406196346042362863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &7621874641585005505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &7768307312704806668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &7806754855189059354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &7831443386972023026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shift/WallhitPan
-  m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &7926025393448582841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &7956461065825476227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MenuMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &8379708295064170766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: 0
-  Max: 1.5
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &8548141588698315860
+--- !u!114 &6306256395075938945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3335,25 +420,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MenuMusic
+  m_Name: event:/Highscore
   m_EditorClassIdentifier: 
-  Path: event:/MenuMusic
-  guid: 06ad168ed9178b4da4939573c26f4177
+  Path: event:/Highscore
+  guid: cf00a64f27b68241b2c00895e38b007f
   Banks:
-  - {fileID: 5537813488745677769}
-  IsStream: 1
+  - {fileID: 2464861029685401806}
+  IsStream: 0
   Is3D: 0
-  IsOneShot: 0
-  Parameters:
-<<<<<<< HEAD
-  - {fileID: 4029866697647301250}
-=======
-  - {fileID: -8192222757601507031}
->>>>>>> main
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 19200
---- !u!114 &8609144472541716872
+  Length: 6065
+--- !u!114 &6372067344761387416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Death
+  guid: a0919c69a9d9c944a35b8e4e6893f2ed
+  Banks:
+  - {fileID: 2464861029685401806}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &7625248838660383121
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3372,108 +475,8 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
-  Exists: 0
---- !u!114 &8821196792722382275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
   Exists: 1
---- !u!114 &8841553019958883044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/RainLoop/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &8943999668664373736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/Pickups
-  m_EditorClassIdentifier: 
-  Name: Pickups
-  Min: 0
-  Max: 150
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &9048723276229307720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &9076185677016633145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MainLevelMusic/LVL
-  m_EditorClassIdentifier: 
-  Name: LVL
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &9114412644885604030
+--- !u!114 &7877056743368458902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3483,25 +486,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/RainLoop
+  m_Name: event:/Shift
   m_EditorClassIdentifier: 
-  Path: event:/RainLoop
-  guid: 71c126d0c09d994187cd6acd127e60c1
+  Path: event:/Shift
+  guid: 87811dcaa11913489b71107274e111e6
   Banks:
-  - {fileID: 5537813488745677769}
+  - {fileID: 2464861029685401806}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
-<<<<<<< HEAD
-  - {fileID: 4244517644787314947}
-=======
-  - {fileID: -7805595786990617262}
->>>>>>> main
+  - {fileID: 1560157889862719515}
   MinDistance: 0
   MaxDistance: 0
-  Length: 10000
---- !u!114 &9209599730851384927
+  Length: 200
+--- !u!114 &8420258408853954884
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3510,14 +509,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/WallHit/WallhitPan
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Name: WallhitPan
-  Min: -1
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
+  Path: FMOD/GameJam2020/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637380566789600415
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1568
+  Exists: 1
