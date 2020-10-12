@@ -22,12 +22,7 @@ public class Movement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         Vector3 direction = new Vector3(horizontal, spawn.transform.position.y, spawn.transform.position.z).normalized;
 
-            controller.Move(Vector3.forward  * forwardSpeed * Time.deltaTime); // Autoscroll
-
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            toggleMovement();
-        }
+        controller.Move(Vector3.forward  * forwardSpeed * Time.deltaTime); // Autoscroll
 
         Vector3 pos = gameObject.transform.position;
         if (!disable)

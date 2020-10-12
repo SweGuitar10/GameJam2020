@@ -63,6 +63,7 @@ public class GameLogic : MonoBehaviour
         {
             partSys.gameObject.SetActive(true);
         }
+
     }
 
     public void restartMap()

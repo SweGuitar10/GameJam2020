@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     SoundScripts sound;
+    // TODO add keybinder
     private void Start()
     {
         sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();

@@ -12,6 +12,8 @@ public class ShapeChanger : MonoBehaviour
     {
         sound = GameObject.Find("SoundLily").GetComponent<SoundScripts>();
     }
+
+    // TODO change to Buttons
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.J))
