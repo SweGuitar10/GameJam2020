@@ -75,10 +75,6 @@ public class SpawnWall : MonoBehaviour
                 wallFake1.transform.position = wall2;
                 wallFake2.transform.position = wall1;
                 break;
-
-
         }
-
-
     }
 }
